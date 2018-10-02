@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		113ECCBA2158D7B300729C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCB92158D7B300729C7F /* AppDelegate.swift */; };
-		113ECCBC2158D7B300729C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCBB2158D7B300729C7F /* ViewController.swift */; };
 		113ECCBF2158D7B300729C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113ECCBD2158D7B300729C7F /* Main.storyboard */; };
 		113ECCC12158D7B700729C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 113ECCC02158D7B700729C7F /* Assets.xcassets */; };
 		113ECCC42158D7B700729C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113ECCC22158D7B700729C7F /* LaunchScreen.storyboard */; };
 		113ECCCF2158D7B700729C7F /* Future_Health_CareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCCE2158D7B700729C7F /* Future_Health_CareTests.swift */; };
 		113ECCDA2158D7B700729C7F /* Future_Health_CareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCD92158D7B700729C7F /* Future_Health_CareUITests.swift */; };
+		113ECCE82158E1F200729C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCE72158E1F200729C7F /* ViewController.swift */; };
+		113ECCEA2158E23500729C7F /* TimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCE92158E23500729C7F /* TimeViewController.swift */; };
+		113ECCEC2158E28000729C7F /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCEB2158E28000729C7F /* AlertViewController.swift */; };
+		113ECCEE2158E2AC00729C7F /* KirokuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCED2158E2AC00729C7F /* KirokuViewController.swift */; };
+		113ECCF02158E2C900729C7F /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113ECCEF2158E2C900729C7F /* ShareViewController.swift */; };
+		D8A3754B216170690032FE69 /* 名称未設定-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8A3754A216170680032FE69 /* 名称未設定-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		113ECCB62158D7B300729C7F /* Future Health Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Future Health Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113ECCB92158D7B300729C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		113ECCBB2158D7B300729C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		113ECCBE2158D7B300729C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		113ECCC02158D7B700729C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		113ECCC32158D7B700729C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		113ECCD52158D7B700729C7F /* Future Health CareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Future Health CareUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		113ECCD92158D7B700729C7F /* Future_Health_CareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Health_CareUITests.swift; sourceTree = "<group>"; };
 		113ECCDB2158D7B700729C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		113ECCE72158E1F200729C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		113ECCE92158E23500729C7F /* TimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewController.swift; sourceTree = "<group>"; };
+		113ECCEB2158E28000729C7F /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		113ECCED2158E2AC00729C7F /* KirokuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KirokuViewController.swift; sourceTree = "<group>"; };
+		113ECCEF2158E2C900729C7F /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		D8A3754A216170680032FE69 /* 名称未設定-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "名称未設定-1.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,17 @@
 		113ECCB82158D7B300729C7F /* Future Health Care */ = {
 			isa = PBXGroup;
 			children = (
+				D8A3754A216170680032FE69 /* 名称未設定-1.jpg */,
 				113ECCB92158D7B300729C7F /* AppDelegate.swift */,
-				113ECCBB2158D7B300729C7F /* ViewController.swift */,
 				113ECCBD2158D7B300729C7F /* Main.storyboard */,
 				113ECCC02158D7B700729C7F /* Assets.xcassets */,
 				113ECCC22158D7B700729C7F /* LaunchScreen.storyboard */,
 				113ECCC52158D7B700729C7F /* Info.plist */,
+				113ECCE72158E1F200729C7F /* ViewController.swift */,
+				113ECCE92158E23500729C7F /* TimeViewController.swift */,
+				113ECCEB2158E28000729C7F /* AlertViewController.swift */,
+				113ECCED2158E2AC00729C7F /* KirokuViewController.swift */,
+				113ECCEF2158E2C900729C7F /* ShareViewController.swift */,
 			);
 			path = "Future Health Care";
 			sourceTree = "<group>";
@@ -231,6 +246,7 @@
 			files = (
 				113ECCC42158D7B700729C7F /* LaunchScreen.storyboard in Resources */,
 				113ECCC12158D7B700729C7F /* Assets.xcassets in Resources */,
+				D8A3754B216170690032FE69 /* 名称未設定-1.jpg in Resources */,
 				113ECCBF2158D7B300729C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				113ECCBC2158D7B300729C7F /* ViewController.swift in Sources */,
+				113ECCF02158E2C900729C7F /* ShareViewController.swift in Sources */,
+				113ECCEE2158E2AC00729C7F /* KirokuViewController.swift in Sources */,
+				113ECCE82158E1F200729C7F /* ViewController.swift in Sources */,
+				113ECCEA2158E23500729C7F /* TimeViewController.swift in Sources */,
 				113ECCBA2158D7B300729C7F /* AppDelegate.swift in Sources */,
+				113ECCEC2158E28000729C7F /* AlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

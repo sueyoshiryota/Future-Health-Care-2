@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ShareViewController.swift
 //  Future Health Care
 //
 //  Created by 末吉亮太 on 2018/09/24.
@@ -8,12 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    
-    
-    
-    
+class ShareViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,15 +21,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func button1(){
+    @IBAction func kyouyuu(){
         
     }
     
-    @IBAction func button2(){
-        
-    }
-    
-
     /*
     // MARK: - Navigation
 
